@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .showHamMenu{
+        @apply relative visible translate-y-[3.5rem] md:translate-y-0 translate-x-9 md:translate-x-0
+    }
+    .hideHamMenu{
+        @apply relative invisible translate-y-[3.5rem] md:translate-y-0 translate-x-9 md:translate-x-0 md:visible
+    }
+}
