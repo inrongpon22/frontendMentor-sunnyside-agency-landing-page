@@ -7,8 +7,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header': "url('/src/assets/img/images/desktop/image-header.jpg')",
-        'graphic': "url('./src/assets/img/images/desktop/image-graphic-design.jpg')",
-        'photography': "url('./src/assets/img/images/desktop/image-photography.jpg')",
+        'graphic': "url('/src/assets/img/images/desktop/image-graphic-design.jpg')",
+        'photography': "url('/src/assets/img/images/desktop/image-photography.jpg')",
       },
       fontFamily: {
         'barlow': ['Barlow', 'sans-serif'],
