@@ -1,6 +1,6 @@
 import React from "react";
-import leftPic from "../assets/img/images/desktop/image-graphic-design.jpg";
-import righttPic from "../assets/img/images/desktop/image-gallery-sugarcubes.jpg";
+import leftPic from "/src/assets/img/images/desktop/image-graphic-design.jpg";
+import righttPic from "/src/assets/img/images/desktop/image-gallery-sugarcubes.jpg";
 
 function Section3() {
   return (
